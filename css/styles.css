@@ -1,0 +1,30 @@
+
+h1 {
+
+    color: cyan ;
+}
+
+#site-header {
+background-color: red;
+
+}
+.encabezado {
+    color: darkgreen;
+    }
+
+    .mayuscula {
+        text-transform: uppercase;
+
+        }
+
+        /* Header */
+        
+        .site-header.inicio {
+background: url(../img/header.jpg);
+background-position: center center; /* para mostrar imagen desde el centro*/
+background-size: cover; /* para tomar el ancho y la altura correcta para la imagen*/
+/*height: 800px; para especifigar un tamaño grande */
+height: 100vh;  /*para toda la pantalla*/
+min-height: 600px; /*esto para que cuando un usurio tiene pantalla pequeña se ajusten letras*/
+
+        }
